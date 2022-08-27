@@ -2,6 +2,7 @@
 interface Starship {
     name: string;
     jump: boolean;
+
 }
 
 const updateStarShip = (id: number, star: Partial<Starship>) => { return { id, star } }
